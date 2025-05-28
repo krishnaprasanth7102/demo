@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #000000;
+  background-color: transparent;
+  padding: 1rem 2rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0 20px red;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar li {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.navbar li:hover {
+  transform: scale(1.1);
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(45deg, black, red);
+  animation: fadeIn 2s ease-in;
+}
+
+.about, .gallery, .conversation {
+  padding: 3rem 2rem;
+  text-align: center;
+  animation: slideUp 1s ease-in;
+}
+
+.gallery .images {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.gallery img {
+  width: 300px;
+  height: 200px;
+  border: 2px solid red;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px red;
+}
+
+.chat p {
+  background: #111;
+  padding: 1rem;
+  margin: 0.5rem auto;
+  width: fit-content;
+  border-left: 4px solid red;
+  border-radius: 4px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
