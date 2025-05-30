@@ -42,7 +42,7 @@ function App() {
           <p><strong>Alex:</strong>yeh motherfucker come to my room lets hf</p>
           <p><strong>Alex:</strong>my motherfucker friend my girlfriend calling brb</p>
           <p><strong>Jamie:she gone my nigga lets fuck </strong></p>
-          <p><strong>Jamie:fuck fuck fuck</strong></p>
+          
         </div >
         <div className="chat">
          
