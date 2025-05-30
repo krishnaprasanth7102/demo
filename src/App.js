@@ -36,9 +36,9 @@ function App() {
       <section className="conversation">
         <h2>Conversation</h2>
         <div className="chat">
-          <p><strong>Alex:</strong> Hey, have you seen the new JAV?</p>
-          <p><strong>Jamie:</strong> Yeah! It's so sleek and vibrant 🔥</p>
-          <p><strong>Alex:</strong>black and white – such a powerful combo.</p>
+          <p><strong>Alex:you fuck today</strong> </p>
+          <p><strong>Jamie:</strong> Yeah! fuck today my mother fucker,are you gay do you sex with me 🔥</p>
+          <p><strong>Alex:</strong>yes i am interested to sex with you my nigaa</p>
           <p><strong>Jamie:</strong> Totally! Feels like a futuristic art gallery.</p>
         </div>
       </section>
