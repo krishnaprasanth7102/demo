@@ -36,10 +36,13 @@ function App() {
       <section className="conversation">
         <h2>Conversation</h2>
         <div className="chat">
-          <p><strong>Alex:you fuck today</strong> </p>
-          <p><strong>Jamie:</strong> Yeah! fuck today my mother fucker,are you gay do you sex with me 🔥</p>
-          <p><strong>Alex:</strong>yes i am interested to sex with you my nigaa</p>
-          <p><strong>Jamie:</strong> Totally! Feels like a futuristic art gallery.</p>
+          <p><strong>Alex:my motherfucker friend ,you fuck today</strong> </p>
+          <p><strong>Jamie:</strong> Yeah! I fuck today my mother fucker friend,are you gay do you sex with me</p>
+          <p><strong>Alex:</strong>yes i am interested to sex with you my nigga</p>
+          <p><strong>Alex:</strong>yeh motherfucker come to my room lets hf</p>
+          <p><strong>Alex:</strong>my motherfucker friend my girlfriend calling brb</p>
+          <p><strong>Jamie:she gone my nigga lets fuck </strong></p>
+          <p><strong>Jamie:pluk pluk pluk</strong></p>
         </div>
       </section>
 
